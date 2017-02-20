@@ -1,0 +1,7 @@
+#Fri Feb 17 20:19:14 IRKT 2017
+base.0=C\:\\work\\workspace\\FaceDetectionDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b3723761c0147356407dfa0771079aa12378c2e5
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\work\\workspace\\FaceDetectionDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_1c3dd9211869423f13618a9f3c4654c266d7e843\\classes.dex
+base.1=C\:\\work\\workspace\\FaceDetectionDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_1c3dd9211869423f13618a9f3c4654c266d7e843
+file.0=C\:\\work\\workspace\\FaceDetectionDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b3723761c0147356407dfa0771079aa12378c2e5\\classes.dex
