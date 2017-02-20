@@ -68,8 +68,6 @@ public class FaceDetectManager {
 
     private ConcurrentLinkedQueue<StoredImage> imagesQueue;
 
-    private long cnt = 0;
-
     public FaceDetectManager(Activity activity, FaceDetectAction imageCaptureAction) {
         this.activity = activity;
         this.imageCaptureAction = imageCaptureAction;
@@ -93,23 +91,6 @@ public class FaceDetectManager {
         imagesQueue.add(new StoredImage(imageTimestamp, bytes));
         if (imagesQueue.size() > MAX_QUEUE_SIZE) {
             imagesQueue.poll();
-        }
-        cnt++;
-        if (cnt % 50 == 0) {
-            try {
-
-                File file = new File(Environment.getExternalStoragePublicDirectory(
-                        Environment.DIRECTORY_DCIM), "/f" + cnt + ".jpg");
-                if (!file.exists()) {
-                    file.createNewFile();
-                }
-                FileOutputStream outputStream;
-                outputStream = new FileOutputStream(file);
-                outputStream.write(bytes);
-                outputStream.close();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
         }
     }
 
