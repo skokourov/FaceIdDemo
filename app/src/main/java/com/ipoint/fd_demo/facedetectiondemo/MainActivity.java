@@ -17,6 +17,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.crashlytics.android.Crashlytics;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.vision.CameraSource;
@@ -29,6 +30,8 @@ import com.ipoint.fd_demo.facedetectiondemo.preview.CameraSourcePreview;
 import com.ipoint.fd_demo.facedetectiondemo.preview.GraphicOverlay;
 
 import java.io.IOException;
+
+import io.fabric.sdk.android.Fabric;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -76,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_main);
         personIdValue = (TextView) findViewById(R.id.person_id_value);
         personInfoValue = (TextView) findViewById(R.id.person_info_value);
