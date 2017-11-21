@@ -13,7 +13,7 @@
         android:label="Tests for com.ipoint.fd_demo.facedetectiondemo"
         android:targetPackage="com.ipoint.fd_demo.facedetectiondemo" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 

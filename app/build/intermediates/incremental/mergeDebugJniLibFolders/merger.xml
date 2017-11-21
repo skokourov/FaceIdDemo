@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\work\workspace\FaceDetectionDemo\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\work\workspace\FaceDetectionDemo\app\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Work\ipoint\1\FaceIdDemo\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Work\ipoint\1\FaceIdDemo\app\src\debug\jniLibs"/></dataSet></merger>

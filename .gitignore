@@ -1,0 +1,7 @@
+app/build/
+build/
+faceId-library/build/
+/.gradle
+/.idea
+*.iml
+local.properties
